@@ -128,8 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Directories
-./Daily_Stock_Report
-
 # Generated files
 *.csv
