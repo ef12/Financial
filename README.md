@@ -9,3 +9,6 @@ Here is a breakdown of the use-case for each library:
 * Time: Forcing the program to pause for a period of time.
 * Smtplib and SSL: Sending a report over email.
 * Get_All_Tickers: Filter through all stocks to get the list you desire.
+
+* Run 
+pip install pydirectory
