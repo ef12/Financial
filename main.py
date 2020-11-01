@@ -1,8 +1,9 @@
 import stocksGetter as sg
 import stocksAnalysis as sa
-
+import emailPropose as ep
 try:
     sg.get_store_tickers()
     sa.analyseStocks()
+    ep.get_propose_and_email()
 except ValueError:
-    print("That's not a valid value for your age!")
+    print("Error")
